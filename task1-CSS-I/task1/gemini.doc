@@ -1,0 +1,45 @@
+CSS (Cascading Style Sheets) is a programming language used to style HTML elements. 
+It defines how the content of a web page is presented, including layout, colors,
+fonts, and spacing. CSS is used to create visually appealing and consistent web pages.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hello, world!</h1>
+    <p>This is a paragraph of text.</p>
+</body>
+</html>
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: red;
+    font-size: 36px;
+}
+
+p {
+    color: green;
+    font-size: 18px;
+}
+
+Explanation of CSS Code
+Selectors: The selectors body, h1, and p target specific HTML elements.
+
+body: Selects the entire body of the HTML document.
+h1: Selects all elements with the <h1> tag.
+p: Selects all elements with the <p> tag.
+Declarations: The declarations within the curly braces specify the styles 
+to be applied to the selected elements.
+
+background-color: Sets the background color of the body to light blue.
+color: Sets the text color of the <h1> and <p> elements to red and green, respectively.
+font-size: Sets the font size of the <h1> and <p> elements to 36px and 18px, respectively.
+Effect on HTML Elements
+The body element will have a light blue background.
+The <h1> element will have red text and a font size of 36px.
+The <p> element will have green text and a font size of 18px.

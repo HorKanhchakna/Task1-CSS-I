@@ -1,0 +1,48 @@
+CSS (Cascading Style Sheets) is a stylesheet language used for describing the 
+presentation of a document written in HTML or XML. CSS is essential in web 
+development because it allows developers to separate content (HTML) from presentation 
+(CSS), making it easier to design visually appealing and consistent websites.
+
+CSS defines how HTML elements should be displayed, allowing developers to control
+the layout, colors, fonts, spacing, and other visual aspects of a webpage.
+By using CSS, developers can make a website look professional and enhance user experience.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics Example</title>
+    <style>
+        body {
+            background-color: lightblue;
+            color: darkblue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a simple example demonstrating CSS basics.</p>
+</body>
+</html>
+
+Explanation of CSS Code
+In this example, the <style> tag is used within the <head> section of 
+the HTML document to add CSS directly.
+
+body Selector: The body selector targets the entire webpage.
+               This means that any CSS rules applied to the body tag 
+               will affect all the content within the <body> of the HTML document.
+
+background-color: lightblue;: This property sets the background color of 
+                  the entire page to light blue. This property affects the
+                  appearance of the whole background within the body element.
+
+color: darkblue;: This property changes the text color to dark blue. 
+                  This affects all text within the body, including text inside <h1>, 
+                  <p>, or other text elements.
+
+font-size: 20px;: This property sets the default font size for all text in 
+                  the body to 20 pixels. Font size is measured in pixels (px),
+                  and increasing this value will increase the text size.

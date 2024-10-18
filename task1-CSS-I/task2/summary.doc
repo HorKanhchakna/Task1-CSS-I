@@ -1,0 +1,18 @@
+ChartGPT:
+-definitions of inline, internal, and external CSS are well-explained and easy to understand.
+-The advantages and disadvantages of each method are accurately listed and provide a good overview
+ of their strengths and weaknesses.
+-provided examples clearly illustrate the usage of each method and their impact on the HTML elements.
+-The HTML page effectively demonstrates all three methods by applying different styles to the heading
+ elements using inline, internal, and external CSS.
+
+Gemini:
+-definition of each CSS method—inline, internal, and external is clear and easy to understand, covering
+ how each one is applied within an HTML document.
+-The advantages and disadvantages for each method are accurately listed, providing a balanced overview 
+ of when and why to use each approach.
+-examples provided effectively demonstrate the practical usage of each CSS type, showing how they affect
+ HTML elements differently.
+-The demonstration HTML page brings all three methods together, making it easy to see their direct impact 
+ on various elements. This setup is ideal for understanding how each method works and its potential role
+ in a larger project.
